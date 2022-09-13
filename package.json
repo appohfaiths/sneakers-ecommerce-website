@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "keen-slider": "^6.8.0",
     "lightgallery": "^2.6.0",
     "next": "12.2.5",
     "react": "18.2.0",

@@ -5,13 +5,15 @@ import Profile from '../../userProfile/Profile';
 
 export default function Header() {
   return (
-    <header className="px-40 py-5">
+    <header className="container mx-auto py-5">
       <div className="flex justify-between ">
-        <div className="flex gap-10">
+        <div className="flex gap-4 md:gap-10">
           <Logo />
-          <Navbar />
+          <div className="hidden md:block">
+            <Navbar />
+          </div>
         </div>
-        <div className="flex gap-10">
+        <div className="flex gap-4 md:gap-10">
           <Cart />
           <Profile />
         </div>
