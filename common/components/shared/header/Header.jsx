@@ -1,7 +1,8 @@
 import Logo from './Logo';
 import Navbar from './Navbar';
-import Cart from '../../cart/Cart';
+import Cart from '../../cart/CartButton';
 import Profile from '../../userProfile/Profile';
+import CartDisplay from '../../cart/CartDisplay';
 
 export default function Header() {
   return (
@@ -19,6 +20,7 @@ export default function Header() {
         </div>
       </div>
       <hr className="bg-slate-200 my-2" />
+      <CartDisplay />
     </header>
   );
 }

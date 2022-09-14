@@ -53,7 +53,7 @@ export default function ProductImageSlider() {
   );
 
   return (
-    <div className="">
+    <div className="mx-auto w-[90vw] md:w-[25vw]">
       <div ref={sliderRef} className="keen-slider my-5">
         <div className="keen-slider__slide">
           <Image
@@ -90,28 +90,28 @@ export default function ProductImageSlider() {
           <img
             src="/assets/images/image-product-1-thumbnail.jpg"
             alt=""
-            className="rounded-xl active:border-2 active:border-orange"
+            className="rounded-xl active:border-2 active:border-orange hover:border-2 hover:border-orange hover:opacity-40"
           />
         </div>
         <div className="keen-slider__slide hover:cursor-pointer ">
           <img
             src="/assets/images/image-product-2-thumbnail.jpg"
             alt=""
-            className="rounded-xl active:border-2 active:border-orange"
+            className="rounded-xl active:border-2 active:border-orange hover:border-2 hover:border-orange hover:opacity-40"
           />
         </div>
         <div className="keen-slider__slide hover:cursor-pointer">
           <img
             src="/assets/images/image-product-3-thumbnail.jpg"
             alt=""
-            className="rounded-xl active:border-2 active:border-orange"
+            className="rounded-xl active:border-2 active:border-orange hover:border-2 hover:border-orange hover:opacity-40"
           />
         </div>
         <div className="keen-slider__slide hover:cursor-pointer">
           <img
             src="/assets/images/image-product-4-thumbnail.jpg"
             alt=""
-            className="rounded-xl active:border-2 active:border-orange"
+            className="rounded-xl active:border-2 active:border-orange hover:border-2 hover:border-orange hover:opacity-40"
           />
         </div>
       </div>
